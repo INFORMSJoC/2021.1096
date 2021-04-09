@@ -20,17 +20,21 @@ The comments on the mod file along with the problem definitions in the main run 
 
 We next outline how to associate the output files with the tables and figures presented in the paper.
 - **Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.**
+
 The corresponding output files are available under the following folders: 
 “…OutputFiles\ModelAnalysis\DataSet1,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_modelanalysis.” 
 “…OutputFiles\ModelAnalysis\DataSet1\Fixing,” where “fixing” refers to setting all the control decisions to 1, i.e., the setting with “no compression decisions.” The combined key results are summarized in the excel file “…OutputFiles\summary_outputs_fixing.”
 
 - **Table 1: Computational performance – comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-comonotone instances.**
+
 “…OutputFiles\ComputationalPerformance,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_computational_performance.”
 
 - **Figure 3: Robustified CVaR of TWCT versus Total Compression Cost for increasing   (trade-off coefficient) values in {0.1, 0.2,…0.9,1}.**
+
 The corresponding output files are available under the folder “…OutputFiles\ModelAnalysis\DataSet1\ParetoAnalysis”, where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_pareto.”
 
 - **Figure 4: Optimal objective function values and solutions for illustrative example.**
+
 The corresponding output files are available under the folder “…OutputFiles\ToyExample.”
 
 - **Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius.**
