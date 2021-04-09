@@ -1,0 +1,92 @@
+:            Name          M_Time[i,4]   M_OBFV  M_Bestnode M_ResNum    :=
+4   Model2_Basic_MIP_RLT       0.062     861.726   861.726      2
+6   Model2_Basic_MIP_B_RLT     0.047     651.726   651.726      2
+;
+
+tau = 6.21429
+kappa = 0.904
+alpha = 0.7
+
+:
+                                                               M_Message
+ :=
+4
+   'CPLEX 12.6.2.0: optimal integer solution; objective 861.7257143\
+49 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+6
+   'CPLEX 12.6.2.0: optimal integer solution; objective 651.7257143\
+40 MIP simplex iterations\
+0 branch-and-bound nodes\
+No basis.'
+;
+: M_INDICATE    :=
+;
+
+:      M_Time    M_Cost  M_Sequence    :=
+4 1   0          210          3
+4 2   0          651.726      2
+4 3   0.046875      .         5
+4 4   0.062         .         1
+4 5       .         .         4
+6 1   0          210          3
+6 2   0          651.726      2
+6 3   0.046875      .         5
+6 4   0.047         .         1
+6 5       .         .         4
+;
+
+:     M_Vectheta M_Vecu    :=
+4 1 1      1        1
+4 1 2      0        0
+4 1 3      1        1
+4 1 4      0        0
+4 1 5      1        1
+4 2 1      1        0
+4 2 2      1        1
+4 2 3      1        0
+4 2 4      0        1
+4 2 5      1        0
+4 3 1      0         .
+4 3 2      0         .
+4 3 3      1         .
+4 3 4      0         .
+4 3 5      0         .
+4 4 1      1         .
+4 4 2      1         .
+4 4 3      1         .
+4 4 4      1         .
+4 4 5      1         .
+4 5 1      0         .
+4 5 2      0         .
+4 5 3      1         .
+4 5 4      0         .
+4 5 5      1         .
+6 1 1      1        1
+6 1 2      0        0
+6 1 3      1        1
+6 1 4      0        0
+6 1 5      1        1
+6 2 1      1        0
+6 2 2      1        1
+6 2 3      1        0
+6 2 4      0        1
+6 2 5      1        0
+6 3 1      0         .
+6 3 2      0         .
+6 3 3      1         .
+6 3 4      0         .
+6 3 5      0         .
+6 4 1      1         .
+6 4 2      1         .
+6 4 3      1         .
+6 4 4      1         .
+6 4 5      1         .
+6 5 1      0         .
+6 5 2      0         .
+6 5 3      1         .
+6 5 4      0         .
+6 5 5      1         .
+;
+

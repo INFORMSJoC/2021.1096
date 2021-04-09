@@ -1,0 +1,13 @@
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\RunFile_DataSet1_15JS100_VaryingParetoCoefficient.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\RunFile_DataSet1_15JS100_VaryingParetoCoefficient_alpha07.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\RunFile_DataSet1_15JS100_VaryingParetoCoefficient_alpha0.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\RunFile_DataSet1_15JS100_fixing.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\RunFile_DataSet1_15JS100_fixing_varyingkappa.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\RunFile_DataSet1_15JS100_fixing_varyingkappa_alpha07.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\RunFile_DataSet1_15JS100_fixing_varyingkappa_alpha0.run;

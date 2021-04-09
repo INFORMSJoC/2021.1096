@@ -1,0 +1,232 @@
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet5\COM5_nL15_nS50.dat; 
+
+#the following will be part of data file
+#let nS:=50;
+#let nL:=5;
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.05*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalAlternativeFormulations_COM_SelectedRLT.run; 
+
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, com_measure1, com_measure2, kappa, alpha, B, M_Message, M_INDICATE, M_Time, M_tau,M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\FinalDataSets\DataSet5\BaseCase_COM5_nL15_nS50_kappa005_B1_alpha09.out; 
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet5\COM5_nL15_nS100.dat; 
+
+#the following will be part of data file
+#let nS:=50;
+#let nL:=5;
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.05*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalAlternativeFormulations_COM_SelectedRLT.run; 
+
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, com_measure1, com_measure2, kappa, alpha, B, M_Message, M_INDICATE, M_Time, M_tau,M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\FinalDataSets\DataSet5\BaseCase_COM5_nL15_nS100_kappa005_B1_alpha09.out; 
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet5\COM5_nL15_nS150.dat; 
+
+#the following will be part of data file
+#let nS:=50;
+#let nL:=5;
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.05*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalAlternativeFormulations_COM_SelectedRLT.run; 
+
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, com_measure1, com_measure2, kappa, alpha, B, M_Message, M_INDICATE, M_Time, M_tau,M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\FinalDataSets\DataSet5\BaseCase_COM5_nL15_nS150_kappa005_B1_alpha09.out; 
+
+
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet5\COM5_nL15_nS200.dat; 
+
+#the following will be part of data file
+#let nS:=50;
+#let nL:=5;
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.05*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalAlternativeFormulations_COM_SelectedRLT.run; 
+
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, com_measure1, com_measure2, kappa, alpha, B, M_Message, M_INDICATE, M_Time, M_tau,M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\FinalDataSets\DataSet5\BaseCase_COM5_nL15_nS200_kappa005_B1_alpha09.out; 
+
+
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet5\COM5_nL15_nS250.dat; 
+
+#the following will be part of data file
+#let nS:=50;
+#let nL:=5;
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.05*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalAlternativeFormulations_COM_SelectedRLT.run; 
+
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, com_measure1, com_measure2, kappa, alpha, B, M_Message, M_INDICATE, M_Time, M_tau,M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\FinalDataSets\DataSet5\BaseCase_COM5_nL15_nS250_kappa005_B1_alpha09.out; 
+
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet5\COM5_nL15_nS300.dat; 
+
+#the following will be part of data file
+#let nS:=50;
+#let nL:=5;
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.05*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalAlternativeFormulations_COM_SelectedRLT.run; 
+
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, com_measure1, com_measure2, kappa, alpha, B, M_Message, M_INDICATE, M_Time, M_tau,M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\FinalDataSets\DataSet5\BaseCase_COM5_nL15_nS300_kappa005_B1_alpha09.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet5\COM5_nL15_nS400.dat; 
+
+#the following will be part of data file
+#let nS:=50;
+#let nL:=5;
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.05*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalAlternativeFormulations_COM_SelectedRLT.run; 
+
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, com_measure1, com_measure2, kappa, alpha, B, M_Message, M_INDICATE, M_Time, M_tau,M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\FinalDataSets\DataSet5\BaseCase_COM5_nL15_nS400_kappa005_B1_alpha09.out; 

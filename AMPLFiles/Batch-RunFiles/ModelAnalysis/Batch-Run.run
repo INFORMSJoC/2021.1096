@@ -1,0 +1,16 @@
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_10JS100.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_10JS100_alpha0.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_10JS100_alpha07.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_10JS100_varyingB.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_10JS100_varyingB_alpha0.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_10JS100_varyingB_alpha07.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_15JS100.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_15JS100_alpha0.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_15JS100_alpha07.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_15JS100_varyingB.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_15JS100_varyingB_alpha0.run;
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\RunFile_DataSet1_15JS100_varyingB_alpha07.run;
+
+

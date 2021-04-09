@@ -1,0 +1,20 @@
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S50_RLT.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S100_RLT.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S150_RLT.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S200_RLT.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S250_RLT.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S300_RLT.run;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S400_RLT.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\DataSet5\RunFile_FinalDataSet5_S500_RLT.run;
+
+
+

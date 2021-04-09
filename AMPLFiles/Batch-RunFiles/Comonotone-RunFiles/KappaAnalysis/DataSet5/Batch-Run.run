@@ -1,0 +1,23 @@
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_15J_alpha09_kappa0005.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_15J_alpha09_kappa0025.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_20J_alpha09_kappa0005.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_20J_alpha09_kappa0025.run;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_15J_alpha09_kappa01.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_15J_alpha09_kappa005.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_20J_alpha09_kappa01.run;
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\Comonotone-RunFiles\KappaAnalysis\DataSet5\RunFile_DataSet1_20J_alpha09_kappa005.run;
+
+
+
+
+

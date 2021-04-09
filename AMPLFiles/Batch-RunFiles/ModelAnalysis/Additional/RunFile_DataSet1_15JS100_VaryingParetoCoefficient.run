@@ -1,0 +1,369 @@
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_0.out; 
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.1;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_01.out; 
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.2;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_02.out; 
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.3;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_03.out; 
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.4;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_04.out; 
+
+####
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.5;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_05.out; 
+
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.6;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_06.out; 
+
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.7;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_07.out; 
+
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.8;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_08.out; 
+
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=0.9;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_09.out; 
+
+####
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+#option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=4'; 
+  
+  
+
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\FinalDataFiles\DataSet1\COM1_nL15_nS100.dat; 
+
+
+#specify the following model parameters in the run file
+#BaseCase with default values
+let kappa:=0.01*kappa_max;
+let alpha:=0.9;
+let B:=1*B;
+let RCVAR_weight:=1;
+
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\RunFiles\ModelAnalysis\Additional\FinalAlternativeFormulations_COM_SelectedRLT_Pareto.run; 
+
+
+display Name, M_OBFV,   M_ResNum, {i in SelectedModels} M_Cost[i,1], {i in SelectedModels} M_Cost[i,2], com_measure1, com_measure2, kappa, alpha, B, RCVAR_weight, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,
+M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ModelAnalysis\DataSet1\COM1_nL15_nS100_kappa001_B1_alpha09_ParetoWeight_1.out; 
+

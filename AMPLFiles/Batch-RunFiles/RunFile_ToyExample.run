@@ -1,0 +1,314 @@
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha0.out; 
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.1;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha01.out; 
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.2;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha02.out; 
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.3;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha03.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.4;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha04.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.5;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha05.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.6;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha06.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.7;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha07.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.8;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha08.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0.9;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha09.out; 
+
+
+reset; 
+ 
+option solver cplexamp; 
+option omit_zero_rows 0; 
+option display_precision 6; 
+#option presolve 0; 
+option presolve_eps 10e-17; 
+option cplex_options 'time=7200 bestnode threads=2'; 
+  
+  
+model C:\EndogenousUncertainty_Scheduling\AMPLFiles\ModFile.mod;  
+data  C:\EndogenousUncertainty_Scheduling\AMPLFiles\DataFiles\ToyDataSet_Final_5J_10S.dat;
+
+
+#specify the following model parameters in the run file
+let kappa:=0.3*kappa_max;
+let alpha:=0;
+
+
+include C:\EndogenousUncertainty_Scheduling\AMPLFiles\AlternativeFormulations_Selected.run; 
+
+display M_Sequence;
+display M_Vecu;
+display tau.val;
+
+display Name, {i in SelectedModels} M_Time[i,4], M_OBFV, M_Bestnode, M_ResNum, tau,kappa, alpha, M_Message, M_INDICATE, M_Time, M_Cost, M_Sequence,  M_Vectheta, M_Vecu
+> C:\EndogenousUncertainty_Scheduling\AMPLFiles\OutputFiles\ToyExample\Output_ToyDataSet_Final_5J_10S_kappa03_alpha0.out; 
