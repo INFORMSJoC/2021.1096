@@ -1,6 +1,6 @@
 # IJoC_2021
  
-
+![](IJoC-image.jpg)
  
 **Distributionally Robust Optimization under Decision-Dependent Ambiguity Set with Applications to Machine Scheduling and Humanitarian Logistics.**
 
@@ -27,8 +27,9 @@ To cite this paper and the data saved in this repository, please  using the foll
  
  author =        {N. Noyan and G. Rudolf and M.A. Lejeune},
 
-  publisher =     {INFORMS Journal on Computing},
-  title =         {Distributionally Robust Optimization under Decision-Dependent Ambiguity Set with Applications to Machine Scheduling and Humanitarian Logistics},
+ journal =     {INFORMS Journal on Computing},
+
+ title =         {Distributionally Robust Optimization under Decision-Dependent Ambiguity Set with Applications to Machine Scheduling and Humanitarian Logistics},
  
   year =          {2021},
 
