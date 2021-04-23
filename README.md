@@ -1,5 +1,3 @@
-# IJoC_2021
- 
 ![](IJoC-image.jpg)
  
 **Distributionally Robust Optimization under Decision-Dependent Ambiguity Set with Applications to Machine Scheduling and Humanitarian Logistics.**
@@ -41,7 +39,7 @@ To cite this paper and the data saved in this repository, please  using the foll
 <!-- blank line --> 
 
 
-** Content **
+**Content**
 
 This repository includes
 1.   **AMPL Data Files** under the folder “FinalDataFiles.” We consider ten instances, and index the data folders from 1 to 10, accordingly. 
