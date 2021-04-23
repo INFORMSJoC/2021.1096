@@ -47,7 +47,8 @@ This repository includes
 
 2.	**AMPL Mod File** (FinalModFile.mod)
 
-3.	AMPL Main Run Files such “FinalAlternativeFormulations_COM.run.”
+3.	**AMPL Main Run Files** 
+such as “FinalAlternativeFormulations_COM.run.”
 Several run files are created to solve a particular set of MIP formulations, allowing efficient batch runs. For example, “FinalAlternativeFormulations_COM.run” is used to solve the following four MIP formulations under a particular set of parameter setting: 
 Cost minimizing basic completely comonotone MILP (CCM)
 Budget-constrained basic completely comonotone MILP (CCM)
