@@ -1,12 +1,47 @@
 # IJoC_2021_DDU
 
+ 
+
+
+**Distributionally Robust Optimization under Decision-Dependent Ambiguity Set with Applications to Machine Scheduling and Humanitarian Logistics.**
+
+**Authors**: N. Noyan, G. Rudol, M.A. Lejeune 
+
+This archive is distributed in association with the INFORMS Journal on Computing under the MIT License.
+
+M. Lejeune acknowledges the support of the Office of Naval Research [Grant N000141712420] for this study.
+
+<!-- blank line --> 
+---- 
+<!-- blank line --> 
+
+**Cite**
+
+To cite this paper and the data saved in this repository, please  using the following BibTex citation: 
+
+@article{NRL2021,
+  author =        {N. Noyan and G. Rudolf and M.A. Lejeune},
+  publisher =     {INFORMS Journal on Computing},
+  title =         {Distributionally Robust Optimization under Decision-Dependent Ambiguity Set with Applications to Machine Scheduling and Humanitarian Logistics},
+  year =          {2021},
+  url =           {https://github.com/INFORMSJoC/2021.????},
+}  
+
+<!-- blank line --> 
+---- 
+<!-- blank line --> 
+
+
+** Content **
+
 This repository includes
-1. **AMPL Data Files** under the folder ‚ÄúFinalDataFiles.‚Äù We consider ten instances, and index the data folders from 1 to 10, accordingly. 
+1.   **AMPL Data Files** under the folder ìFinalDataFiles.î We consider ten instances, and index the data folders from 1 to 10, accordingly. 
 
-2. **AMPL Mod File** (FinalModFile.mod)
 
-3. **AMPL Main Run Files** such ‚ÄúFinalAlternativeFormulations_COM.run.‚Äù
-Several run files are created to solve a particular set of MIP formulations, allowing efficient batch runs. For example, ‚ÄúFinalAlternativeFormulations_COM.run‚Äù is used to solve the following four MIP formulations under a particular set of parameter setting: 
+2.	**AMPL Mod File** (FinalModFile.mod)
+
+3.	AMPL Main Run Files such ìFinalAlternativeFormulations_COM.run.î
+Several run files are created to solve a particular set of MIP formulations, allowing efficient batch runs. For example, ìFinalAlternativeFormulations_COM.runî is used to solve the following four MIP formulations under a particular set of parameter setting: 
 Cost minimizing basic completely comonotone MILP (CCM)
 Budget-constrained basic completely comonotone MILP (CCM)
 Cost minimizing completely comonotone MILP with RLT (CCM-RLT)
@@ -14,32 +49,24 @@ Budget-Constrained completely comonotone MILP with (CCM-RLT).
 
 The comments on the mod file along with the problem definitions in the main run files provide insights about the alternative MIP formulations considered in our study.
 
-4.	We created additional run files to get results for a batch of main run files under different parameter settings. These files are provided under the folder ‚ÄúBatch-RunFiles.‚Äù For illustrative purposes, each type of file is given for a particular instance index such as DataSet5; we basically modify the index information to get results for the other instances.
+4.	We created additional run files to get results for a batch of main run files under different parameter settings. These files are provided under the folder ìBatch-RunFiles.î For illustrative purposes, each type of file is given for a particular instance index such as DataSet5; we basically modify the index information to get results for the other instances.
 
-5.	All the output files obtained in our computational study are available under the folder ‚ÄúOutputFiles.‚Äù Since there is a very large number of output files (almost two thousand problem instances), for convenience, we also provided the excel files including the key results retrieved from the output files. 
+5.	All the output files obtained in our computational study are available under the folder ìOutputFiles.î Since there is a very large number of output files (almost two thousand problem instances), for convenience, we also provided the excel files including the key results retrieved from the output files. 
 
 We next outline how to associate the output files with the tables and figures presented in the paper.
-- **Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.**
-
+Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.
 The corresponding output files are available under the following folders: 
-‚Äú‚Ä¶OutputFiles\ModelAnalysis\DataSet1,‚Äù where the combined key results are summarized in the excel file ‚Äú‚Ä¶OutputFiles\summary_outputs_modelanalysis.‚Äù 
-‚Äú‚Ä¶OutputFiles\ModelAnalysis\DataSet1\Fixing,‚Äù where ‚Äúfixing‚Äù refers to setting all the control decisions to 1, i.e., the setting with ‚Äúno compression decisions.‚Äù The combined key results are summarized in the excel file ‚Äú‚Ä¶OutputFiles\summary_outputs_fixing.‚Äù
+ìÖOutputFiles\ModelAnalysis\DataSet1,î where the combined key results are summarized in the excel file ìÖOutputFiles\summary_outputs_modelanalysis.î 
+ìÖOutputFiles\ModelAnalysis\DataSet1\Fixing,î where ìfixingî refers to setting all the control decisions to 1, i.e., the setting with ìno compression decisions.î The combined key results are summarized in the excel file ìÖOutputFiles\summary_outputs_fixing.î
+Table 1: Computational performance ñ comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-comonotone instances.
+ìÖOutputFiles\ComputationalPerformance,î where the combined key results are summarized in the excel file ìÖOutputFiles\summary_outputs_computational_performance.î
 
-- **Table 1: Computational performance ‚Äì comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-comonotone instances.**
-
-‚Äú‚Ä¶OutputFiles\ComputationalPerformance,‚Äù where the combined key results are summarized in the excel file ‚Äú‚Ä¶OutputFiles\summary_outputs_computational_performance.‚Äù
-
-- **Figure 3: Robustified CVaR of TWCT versus Total Compression Cost for increasing   (trade-off coefficient) values in {0.1, 0.2,‚Ä¶0.9,1}.**
-
-The corresponding output files are available under the folder ‚Äú‚Ä¶OutputFiles\ModelAnalysis\DataSet1\ParetoAnalysis‚Äù, where the combined key results are summarized in the excel file ‚Äú‚Ä¶OutputFiles\summary_outputs_pareto.‚Äù
-
-- **Figure 4: Optimal objective function values and solutions for illustrative example.**
-
-The corresponding output files are available under the folder ‚Äú‚Ä¶OutputFiles\ToyExample.‚Äù
-
-- **Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius.**
-The corresponding output files are available under the folder ‚Äú‚Ä¶OutputFiles\ \ComputationalPerformance\KappaAnalysis,‚Äù where the combined key results are summarized in the excel file ‚Äú‚Ä¶OutputFiles\ summary_outputs_computational_performance_kappaimpact.‚Äù
-
+Figure 3: Robustified CVaR of TWCT versus Total Compression Cost for increasing   (trade-off coefficient) values in {0.1, 0.2,Ö0.9,1}.
+The corresponding output files are available under the folder ìÖOutputFiles\ModelAnalysis\DataSet1\ParetoAnalysisî, where the combined key results are summarized in the excel file ìÖOutputFiles\summary_outputs_pareto.î
+Figure 4: Optimal objective function values and solutions for illustrative example.
+The corresponding output files are available under the folder ìÖOutputFiles\ToyExample.î
+Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius.
+The corresponding output files are available under the folder ìÖOutputFiles\ \ComputationalPerformance\KappaAnalysis,î where the combined key results are summarized in the excel file ìÖOutputFiles\ summary_outputs_computational_performance_kappaimpact.î
 
 
 
