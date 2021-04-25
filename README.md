@@ -59,20 +59,19 @@ Several run files are created to solve a particular set of MIP formulations, all
 
 - Budget-Constrained completely comonotone MILP with (CCM-RLT). 
 
-The comments on the mod file along with the problem definitions in the main run files provide insights about the alternative MIP formulations considered in our study.
+  The comments on the mod file along with the problem definitions in the main run files provide insights about the alternative MIP formulations considered in our study.
 
 4.	We created additional run files to get results for a batch of main run files under different parameter settings. These files are provided under the folder “Batch-RunFiles.” For illustrative purposes, each type of file is given for a particular instance index such as DataSet5; we basically modify the index information to get results for the other instances.
 
 5.	All the output files obtained in our computational study are available under the folder “OutputFiles.” Since there is a very large number of output files (almost two thousand problem instances), for convenience, we also provided the excel files including the key results retrieved from the output files. 
 
-We next outline how to associate the output files with the tables and figures presented in the paper.
-1.  Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.
+		We next outline how to associate the output files with the tables and figures presented in the paper.
+ 		1.  Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.
+		The corresponding output files are available under the following folders: 
 
-The corresponding output files are available under the following folders: 
+			- “…OutputFiles\ModelAnalysis\DataSet1,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_modelanalysis.” 
 
-- “…OutputFiles\ModelAnalysis\DataSet1,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_modelanalysis.” 
-
-- “…OutputFiles\ModelAnalysis\DataSet1\Fixing,” where “fixing” refers to setting all the control decisions to 1, i.e., the setting with “no compression decisions.” The combined key results are summarized in the excel file “…OutputFiles\summary_outputs_fixing.”
+			- “…OutputFiles\ModelAnalysis\DataSet1\Fixing,” where “fixing” refers to setting all the control decisions to 1, i.e., the setting with “no compression decisions.” The combined 					key results are summarized in the excel file “…OutputFiles\summary_outputs_fixing.”
 
 2.  Table 1: Computational performance – comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-comonotone instances.
 
