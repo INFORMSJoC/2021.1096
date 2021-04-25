@@ -65,30 +65,29 @@ Several run files are created to solve a particular set of MIP formulations, all
 
 5.	All the output files obtained in our computational study are available under the folder “OutputFiles.” Since there is a very large number of output files (almost two thousand problem instances), for convenience, we also provided the excel files including the key results retrieved from the output files. 
 
-		We next outline how to associate the output files with the tables and figures presented in the paper.
- 		1.  Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.
-		The corresponding output files are available under the following folders: 
+	We next outline how to associate the output files with the tables and figures presented in the paper.
+ 	1.  Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.
+	The corresponding output files are available under the following folders: 
 
-			- “…OutputFiles\ModelAnalysis\DataSet1,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_modelanalysis.” 
+		- “…OutputFiles\ModelAnalysis\DataSet1,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_modelanalysis.” 
 
-			- “…OutputFiles\ModelAnalysis\DataSet1\Fixing,” where “fixing” refers to setting all the control decisions to 1, i.e., the setting with “no compression decisions.” The combined 					key results are summarized in the excel file “…OutputFiles\summary_outputs_fixing.”
+		- “…OutputFiles\ModelAnalysis\DataSet1\Fixing,” where “fixing” refers to setting all the control decisions to 1, i.e., the setting with “no compression decisions.” 			The combined key results are summarized in the excel file “…OutputFiles\summary_outputs_fixing.”
 
-2.  Table 1: Computational performance – comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-comonotone instances.
+	2.  Table 1: Computational performance – comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-	  comonotone instances.
 
-- “…OutputFiles\ComputationalPerformance,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_computational_performance.”
+		- “…OutputFiles\ComputationalPerformance,” where the combined key results are summarized in the excel file “…OutputFiles\summary_outputs_computational_performance.”
 
-3.  Figure 3: Robustified CVaR of TWCT versus Total Compression Cost for increasing   (trade-off coefficient) values in {0.1, 0.2,…0.9,1}.
+	3.  Figure 3: Robustified CVaR of TWCT versus Total Compression Cost for increasing   (trade-off coefficient) values in {0.1, 0.2,…0.9,1}.
 
-- The corresponding output files are available under the folder “…OutputFiles\ModelAnalysis\DataSet1\ParetoAnalysis”, where the combined key results are summarized in the excel file 
-“…OutputFiles\summary_outputs_pareto.”
+		- The corresponding output files are available under the folder “…OutputFiles\ModelAnalysis\DataSet1\ParetoAnalysis”, where the combined key results are summarized in 	                 the excel file “…OutputFiles\summary_outputs_pareto.”
 
-4.  Figure 4: Optimal objective function values and solutions for illustrative example.
+	4.  Figure 4: Optimal objective function values and solutions for illustrative example.
 
-- The corresponding output files are available under the folder “…OutputFiles\ToyExample.”
+		- The corresponding output files are available under the folder “…OutputFiles\ToyExample.”
 
-5.  Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius.
+	5.  Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius.
 
-- The corresponding output files are available under the folder “…OutputFiles\ \ComputationalPerformance\KappaAnalysis,” where the combined key results are summarized in the excel file “…OutputFiles\ summary_outputs_computational_performance_kappaimpact.”
+		- The corresponding output files are available under the folder “…OutputFiles\ \ComputationalPerformance\KappaAnalysis,” where the combined key results are summarized 	                 in the excel file “…OutputFiles\ summary_outputs_computational_performance_kappaimpact.”
 
 
 
