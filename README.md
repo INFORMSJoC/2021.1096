@@ -53,4 +53,4 @@ The corresponding output files are available under the following folders.
 1. Figure 4: Optimal objective function values and solutions for illustrative example. The corresponding output files are available in the following folder.
     * [ToyExample](AMPLFiles/OutputFiles/ToyExample)
 1. Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius. The corresponding output files are available in the following folder.
-    * [KappaAnalysis](AMPLFiles/OutputFiles/ComputationalPerformance/KappaAnalysis), where the combined key results are summarized in the excel file [summary_outputs_computational_performance_kappaimpact](AMPLFiles/OutputFiles/summary_outputs_computational_performance_kappaimpact.xlsx)
+    * [KappaAnalysis](AMPLFiles/OutputFiles/ComputationalPerformance/KappaAnalysis), where the combined key results are summarized in the excel file [summary_outputs_computational_performance_kappaimpact.xlsx](AMPLFiles/OutputFiles/summary_outputs_computational_performance_kappaimpact.xlsx)
