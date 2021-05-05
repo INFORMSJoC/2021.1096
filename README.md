@@ -30,7 +30,7 @@ Below is the BibTex for citing this version of the data.
 
 This repository includes
 1. **AMPL Data Files** are in the folder [FinalDataFiles](AMPLFiles/FinalDataFiles). We consider ten instances, and index the data folders from 1 to 10, accordingly. 
-1. An **AMPL Mod File** [here](AMPLFiles/FinalModFile.mod)
+1. **AMPL Mod File** [here](AMPLFiles/FinalModFile.mod).
 1. **AMPL Run Files** created to solve a particular set of MIP formulations, allowing efficient batch runs. For example, [FinalAlternativeFormulations_COM.run](AMPLFiles/FinalAlternativeFormulations_COM.run) was used to solve the following four MIP formulations under a particular set of parameter setting: 
     * Cost minimizing basic completely comonotone MILP (CCM)
     * Budget-constrained basic completely comonotone MILP (CCM)
