@@ -44,7 +44,7 @@ We next outline how to associate the output files with the tables and figures pr
 
 1. Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.
 The corresponding output files are available under the following folders.
-    * [DataSet1](AMPLFiles/OutputFiles/ModelAnalysis/DataSet1), where the combined key results are summarized in the excel file [summary_outputs_modelanalysis.xlsx](AmplFiles/OutputFiles/summary_outputs_modelanalysis.xlsx) 
+    * [DataSet1](AMPLFiles/OutputFiles/ModelAnalysis/DataSet1), where the combined key results are summarized in the excel file [summary_outputs_modelanalysis.xlsx](AMPLFiles/OutputFiles/summary_outputs_modelanalysis.xlsx) 
     * [Fixing](AMPLFiles/OutputFiles/ModelAnalysis/DataSet1/Fixing) where “fixing” refers to setting all the control decisions to 1, i.e., the setting with “no compression decisions.” The combined key results are summarized in the excel file [summary_outputs_fixing.xlsx](AmplFiles/OutputFiles/summary_outputs_fixing.xlsx)
 1. Table 1: Computational performance – comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-	  comonotone instances. The corresponding output files are available in the following folder.
     * [ComputationalPerformance](AMPLFiles/OutputFiles/ComputationalPerformance), where the combined key results are summarized in the excel file (summary_outputs_computational_performance.xlsx)[AMPLFiles/OutputFiles/summary_outputs_computational_performance.xlsx].
