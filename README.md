@@ -43,14 +43,14 @@ This repository includes
 We next outline how to associate the output files with the tables and figures presented in the paper.
 
 1. Figure 1: Optimal objective function value (robustified CVaR of TWCT) for varying radius and budget.
-The corresponding output files are available under the following folders: 
+The corresponding output files are available under the following folders.
     * [DataSet1](AMPLFiles/OutputFiles/ModelAnalysis/DataSet1), where the combined key results are summarized in the excel file [summary_outputs_modelanalysis.xlsx](AmplFiles/OutputFiles/summary_outputs_modelanalysis.xlsx) 
     * [Fixing](AMPLFiles/OutputFiles/ModelAnalysis/DataSet1/Fixing) where “fixing” refers to setting all the control decisions to 1, i.e., the setting with “no compression decisions.” The combined key results are summarized in the excel file [summary_outputs_fixing.xlsx](AmplFiles/OutputFiles/summary_outputs_fixing.xlsx)
-1. Table 1: Computational performance – comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-	  comonotone instances.
-    * The corresponding output files are available in the folder [ComputationalPerformance](AMPLFiles/OutputFiles/ComputationalPerformance), where the combined key results are summarized in the excel file (summary_outputs_computational_performance.xlsx)[AMPLFiles/OutputFiles/summary_outputs_computational_performance.xlsx].
-1. Figure 3: Robustified CVaR of TWCT versus Total Compression Cost for increasing   (trade-off coefficient) values in {0.1, 0.2,…0.9,1}.
-    * The corresponding output files are available in the folder (ParetoAnalysis)[AMPLFiles/OutputFiles/ModelAnalysis/DataSet1/ParetoAnalysis], where the combined key results are summarized in the excel file [summary_outputs_pareto.xlsx](AMPLFiles/OutputFiles/summary_outputs_pareto.xlsx).
-1. Figure 4: Optimal objective function values and solutions for illustrative example.
-    * The corresponding output files are available in the folder [ToyExample](AMPLFiles/OutputFiles/ToyExample)
-1. Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius.
-    * The corresponding output files are available in the folder [KappaAnalysis](AMPLFiles/OutputFiles/ComputationalPerformance/KappaAnalysis), where the combined key results are summarized in the excel file [summary_outputs_computational_performance_kappaimpact](AMPLFiles/OutputFiles/summary_outputs_computational_performance_kappaimpact.xlsx)
+1. Table 1: Computational performance – comonotone data, Table 2: Impact of modeling parameters on performance of CCM-RLT, and Table 5: Computational performance on non-	  comonotone instances. The corresponding output files are available in the following folder.
+    * [ComputationalPerformance](AMPLFiles/OutputFiles/ComputationalPerformance), where the combined key results are summarized in the excel file (summary_outputs_computational_performance.xlsx)[AMPLFiles/OutputFiles/summary_outputs_computational_performance.xlsx].
+1. Figure 3: Robustified CVaR of TWCT versus Total Compression Cost for increasing   (trade-off coefficient) values in {0.1, 0.2,…0.9,1}. The corresponding output files are available in the following folder. The corresponding output files are available in the following folder.
+    * (ParetoAnalysis)[AMPLFiles/OutputFiles/ModelAnalysis/DataSet1/ParetoAnalysis], where the combined key results are summarized in the excel file [summary_outputs_pareto.xlsx](AMPLFiles/OutputFiles/summary_outputs_pareto.xlsx).
+1. Figure 4: Optimal objective function values and solutions for illustrative example. The corresponding output files are available in the following folder.
+    * [ToyExample](AMPLFiles/OutputFiles/ToyExample)
+1. Table 4: Impact of radius ( ) on performance of CCM-RLT and Figure 5: Solution times for varying radius. The corresponding output files are available in the following folder.
+    * [KappaAnalysis](AMPLFiles/OutputFiles/ComputationalPerformance/KappaAnalysis), where the combined key results are summarized in the excel file [summary_outputs_computational_performance_kappaimpact](AMPLFiles/OutputFiles/summary_outputs_computational_performance_kappaimpact.xlsx)
