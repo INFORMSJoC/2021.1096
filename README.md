@@ -11,7 +11,9 @@ M. Lejeune acknowledges the support of the Office of Naval Research [Grant N0001
 
 ## Cite
 
-To cite this software, please cite the [paper](https://doi.org/10.1287/ijoc.2020.1022) and the software
+To cite this data, please cite the [research article](https://doi.org/10.1287/ijoc.2021.1096) and the data itself, using the following DOI.
+
+[![DOI](https://zenodo.org/badge/364323573.svg)](https://zenodo.org/badge/latestdoi/364323573)
 
 Below is the BibTex for citing this version of the data.
 
@@ -20,8 +22,8 @@ Below is the BibTex for citing this version of the data.
   author =        {N. Noyan and G. Rudolf and M.A. Lejeune},
   publisher =     {INFORMS Journal on Computing},
   title =         {Data for Distributionally Robust Optimization under Decision-Dependent Ambiguity Set with Applications to Machine Scheduling and Humanitarian Logistics},
-  year =          {2020},
-  doi =           {10.5281/zenodo.xxxxxxx},
+  year =          {2021},
+  doi =           {10.5281/zenodo.4739762},
   url =           {https://github.com/INFORMSJoC/2021.1096},
 }  
 ```
