@@ -11,9 +11,7 @@ M. Lejeune acknowledges the support of the Office of Naval Research [Grant N0001
 
 ## Cite
 
-To cite this data, please cite the [research article](https://doi.org/10.1287/ijoc.2021.1096) and the data itself, using the following DOI.
-
-[![DOI](https://zenodo.org/badge/364323573.svg)](https://zenodo.org/badge/latestdoi/364323573)
+To cite this data, please cite the [research article](https://doi.org/10.1287/ijoc.2021.1096) and the data itself using [its DOI](https://doi.org/10.1287/ijoc.2021.1096.cd).
 
 Below is the BibTex for citing this version of the data.
 
